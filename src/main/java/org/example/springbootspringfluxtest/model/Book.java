@@ -1,4 +1,4 @@
-package org.example.model;
+package org.example.springbootspringfluxtest.model;
 
 public class Book {
     private String id;
@@ -13,6 +13,7 @@ public class Book {
         this.title = title;
         this.author = author;
     }
-
-    // Getters and setters
+    public String getId() {
+        return id;
+    }
 }
