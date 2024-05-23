@@ -16,6 +16,7 @@ import java.util.concurrent.ConcurrentHashMap;
 @RequestMapping("/books")
 public class BookController {
     private ConcurrentHashMap<String, Book> books = new ConcurrentHashMap<>();
+
     public BookController(){
         // Adding some initial books
         books.put("1", new Book("1", "Book One", "Author One"));
